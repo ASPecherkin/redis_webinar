@@ -1,0 +1,29 @@
+GET http://localhost:8080/leaderboard
+Accept: application/json
+
+###
+GET http://localhost:8080/points/Lisa
+Accept: application/json
+
+###
+POST http://localhost:8080/points
+Content-Type: application/json
+
+{"username": "John", "points": 20}
+
+###
+POST http://localhost:8080/points
+Content-Type: application/json
+
+{"username": "Ivan", "points": 15}
+
+###
+POST http://localhost:8080/points
+Content-Type: application/json
+
+{"username": "Lisa", "points": 25}
+
+###
+
+
+
